@@ -1,4 +1,4 @@
-// src/components/AnimeItem/AnimeItem.jsx
+
 import React from 'react';
 import Card from '../Card/Card';
 import Button from '../Button/Button';

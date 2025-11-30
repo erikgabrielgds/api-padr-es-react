@@ -1,4 +1,4 @@
-// src/containers/AnimeListContainer/AnimeListContainer.jsx
+
 import React, { useState, useEffect } from 'react';
 import AnimeItem from '../../components/AnimeItem/AnimeItem'; 
 import Card from '../../components/Card/Card'; 
