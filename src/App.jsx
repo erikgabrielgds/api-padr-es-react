@@ -3,6 +3,7 @@ import React from 'react';
 import AnimeListContainer from './containers/AnimeListContainer/AnimeListContainer'; 
 
 function App() {
+    // estilo básico da página inteira
   const appStyle = {
     textAlign: 'center',
     fontFamily: 'Arial, sans-serif',
@@ -13,8 +14,9 @@ function App() {
   
   return (
     <div style={appStyle}>
+      {/* título principal da aplicação */}
       <h1 style={{ color: '#dc143c' }}>Catálogo de Animes: Aplicação de Padrões</h1>
-      {/* O Container principal é montado aqui */}
+      {/* aqui eu chamo o Container que cuida de toda a lógica */}
       <AnimeListContainer />
     </div>
   );
